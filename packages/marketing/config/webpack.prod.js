@@ -9,12 +9,12 @@ const prodConfig={
     output:{
         filename:'ma.[name].[contenthash].js',
         path: path.resolve(__dirname, '../../../dist'),
-        publicPath:'/marketing/'
+        publicPath:'/marketing/latest'
     },
     plugins:[
         new ModuleFederationPlugin({
                 name:`marketing`,
-                filename:'maRemoteEntry.js',
+                filename:'marketingRemoteEntry.js',
                 exposes:{
                     './MarketingApp':'./src/bootstrap'
                 },
