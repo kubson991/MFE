@@ -11,9 +11,7 @@ const prodConfig={
         path: path.resolve(__dirname, '../../../dist'),
         // publicPath:'/auth/latest/'
     },
-    headers:{
-        'Access-Control-Allow-Origin':'*'
-    },
+    
     plugins:[
         new ModuleFederationPlugin({
                 name:`dashboard`,
