@@ -1,6 +1,5 @@
 [[redirects]]
   from = "/*"
-  to = "/index.html"
+  to = "/"
   status = 200
   force = false
-  conditions = { is_not_file = true }
