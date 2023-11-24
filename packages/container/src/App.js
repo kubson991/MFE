@@ -33,6 +33,12 @@ export default ()=>{
                         <Route path="/auth">
                             <AuthLazy onSignIn={()=> setIsSignedIn(true)}/>
                         </Route>
+                        <Route path="/auth/xd">
+                            <p>XDDD</p>
+                        </Route>
+                        <Route path="/xd">
+                            <Route path="/xd"></Route>
+                        </Route>
                         <Route path="/dashboard">
                             {!isSignedIn && <Redirect to="/"/>}
                             <DashboardLazy />

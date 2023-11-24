@@ -15,7 +15,7 @@ const devConfig = {
             index:'/index.html'
         },
         headers:{
-            'Access-control-Allow-Origin':'*'
+            'Access-Control-Allow-Origin':'*'
         }
     },
     plugins:[
