@@ -1,0 +1,12 @@
+{
+  "name": "microfrontends",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd packages && cd marketing && npm run build && cd ../auth && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
