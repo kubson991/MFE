@@ -9,7 +9,7 @@ const prodConfig={
     output:{
         filename:'ma.[name].[contenthash].js',
         path: path.resolve(__dirname, '../../../dist'),
-        publicPath:'/marketing/latest/'
+        // publicPath:'/marketing/latest/'
     },
     plugins:[
         new ModuleFederationPlugin({
